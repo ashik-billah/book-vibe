@@ -4,7 +4,7 @@ import React, { use } from "react";
 import BookCard from "../ui/BookCard";
 //add
 const booksPromise = fetch("/booksData.json").then((res) => res.json());
-
+// add
 const AllBooks = () => {
   const books = use(booksPromise);
   console.log(books, "books ");
