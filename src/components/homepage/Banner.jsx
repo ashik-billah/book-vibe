@@ -1,6 +1,6 @@
 import React from "react";
 import bookImg from "../../assets/hero_img.jpg";
-
+//add
 const Banner = () => {
   return (
     <div className="hero bg-base-200 min-h-[70vh] rounded-2xl my-8 container mx-auto">
