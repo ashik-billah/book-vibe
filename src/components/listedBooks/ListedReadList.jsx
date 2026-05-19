@@ -8,7 +8,7 @@ const ListedReadList = ({ sortingType }) => {
   const [filteredReadList, setFilteredReadList] = useState(readList);
 //aas
   console.log(filteredReadList, "filteredReadList");
-
+//add
   useEffect(() => {
     if (sortingType) {
       if (sortingType === "pages") {
@@ -24,7 +24,7 @@ const ListedReadList = ({ sortingType }) => {
       }
     }
   }, [sortingType, readList]);
-
+// add?
   if (filteredReadList.length === 0) {
     return (
       <div className="h-[50vh] bg-gray-100 flex items-center justify-center ">
