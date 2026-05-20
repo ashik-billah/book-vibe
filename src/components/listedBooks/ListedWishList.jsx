@@ -22,6 +22,7 @@ const ListedWishList = ({ sortingType }) => {
         setFilteredWishList(sortedData);
       }
     }
+    // add
   }, [sortingType, wishList]);
 
   if (filteredWishList.length === 0) {
