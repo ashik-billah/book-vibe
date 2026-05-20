@@ -7,7 +7,7 @@ const ListedWishList = ({ sortingType }) => {
   console.log(wishList, "bookContext");
 //add
   const [filteredWishList, setFilteredWishList] = useState(wishList);
-
+//add
   useEffect(() => {
     if (sortingType) {
       if (sortingType === "pages") {
