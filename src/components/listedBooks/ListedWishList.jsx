@@ -43,5 +43,5 @@ const ListedWishList = ({ sortingType }) => {
     </div>
   );
 };
-
+//add
 export default ListedWishList;
