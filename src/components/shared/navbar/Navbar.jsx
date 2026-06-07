@@ -14,6 +14,7 @@ const Navbar = () => {
           }
         >
           Home
+          {/* add */}
         </NavLink>
       </li>
       <li>
