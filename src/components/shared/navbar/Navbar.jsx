@@ -34,6 +34,7 @@ const Navbar = () => {
           }
           to={"/page-to-read"}
         >
+          {/* add */}
           Page to Read
         </NavLink>
       </li>
