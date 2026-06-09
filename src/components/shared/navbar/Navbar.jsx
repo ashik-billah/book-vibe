@@ -80,6 +80,7 @@ const Navbar = () => {
           <button className="btn btn-success text-white">Signin</button>
           <button className="btn btn-accent text-white">Signup</button>
         </div>
+        {/* add */}
       </div>
     </nav>
   );
