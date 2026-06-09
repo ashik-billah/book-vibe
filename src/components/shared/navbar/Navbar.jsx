@@ -40,6 +40,7 @@ const Navbar = () => {
       </li>
     </>
   );
+  // add
   return (
     <nav className="bg-base-100 shadow-sm">
       <div className="navbar container mx-auto">
