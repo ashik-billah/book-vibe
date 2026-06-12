@@ -13,6 +13,7 @@ const BookCard = ({ book }) => {
           src={book.image}
           alt={book.bookName}
           className="rounded-xl h-[250px]"
+          // add
         />
       </figure>
       <div className="card-body">
