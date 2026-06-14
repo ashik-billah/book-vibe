@@ -26,6 +26,7 @@ const BookCard = ({ book }) => {
               {tag}
             </div>
           ))}
+          {/* add */}
         </div>
         <h2 className="card-title text-2xl">{book.bookName}</h2>
         <p className="font-semibold text-lg">{book.author}</p>
