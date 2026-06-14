@@ -30,7 +30,7 @@ const BookCard = ({ book }) => {
         </div>
         <h2 className="card-title text-2xl">{book.bookName}</h2>
         <p className="font-semibold text-lg">{book.author}</p>
-
+{/* add */}
         <div className="card-actions justify-between border-t border-dashed border-gray-300 pt-4 text-xl">
           <div className="font-semibold">{book.category}</div>
           <div className="flex gap-2 items-center ">
