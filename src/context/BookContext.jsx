@@ -17,6 +17,7 @@ const BookProvider = ({ children }) => {
 //add
   const handleMarkAsRead = (currentBook) => {
     // step 1: store book id or store book object
+    // addL
     // step 2: where to store
     // step 2: array or collection
     //  step 3: If the book is already exist then show a alert or toast
