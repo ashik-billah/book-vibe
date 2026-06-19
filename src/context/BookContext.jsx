@@ -44,6 +44,7 @@ const BookProvider = ({ children }) => {
 
   const handleWishList = (currentBook) => {
     // step 1: store book id or store book object
+    //add
     // step 2: where to store
     // step 2: array or collection
     //  step 3: If the book is already exist then show a alert or toast
