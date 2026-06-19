@@ -25,7 +25,7 @@ const BookProvider = ({ children }) => {
     //  step 3: If the book is already exist then show a alert or toast
     //add
     // step 4: if not then add the book in the array or collection
-
+//add
     addReadListToLocalDB(currentBook);
 
     const isExistBook = readList.find(
