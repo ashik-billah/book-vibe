@@ -48,6 +48,7 @@ const BookProvider = ({ children }) => {
     // step 2: where to store
     // step 2: array or collection
     //  step 3: If the book is already exist then show a alert or toast
+    //add
     // step 4: if not then add the book in the array or collection
 
     const isExistInReadList = readList.find(
