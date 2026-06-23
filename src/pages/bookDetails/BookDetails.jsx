@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router";
 import { BookContext } from "../../context/BookContext";
 //add
 // const booksPromise = fetch("/booksData.json").then((res) => res.json());
-
+//add
 const BookDetails = () => {
   const { bookId: bookParamsId } = useParams();
 
