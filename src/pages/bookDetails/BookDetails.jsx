@@ -31,7 +31,7 @@ const BookDetails = () => {
   } = expectedBook;
 
   const { handleMarkAsRead, handleWishList } = useContext(BookContext);
-
+//add
   return (
     <div className="grid grid-cols-2 bg-base-100 shadow-sm container mx-auto my-8">
       <figure className="w-full flex items-center justify-center bg-gray-100 rounded-xl">
