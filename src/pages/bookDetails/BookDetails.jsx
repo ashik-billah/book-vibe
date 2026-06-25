@@ -52,6 +52,7 @@ const BookDetails = () => {
             </div>
           ))}
         </div>
+        {/* add */}
         <div className="border-t space-y-3">
           <div className="flex justify-between items-center gap-2">
             <span>Number of pages: </span> <span>{totalPages}</span>
