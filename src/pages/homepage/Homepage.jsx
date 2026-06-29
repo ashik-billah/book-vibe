@@ -7,6 +7,7 @@ const Homepage = () => {
   return (
     <div>
       <Banner />
+      {/* add */}
       <AllBooks />
     </div>
   );
