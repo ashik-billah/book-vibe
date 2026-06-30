@@ -13,6 +13,7 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <Homepage />,
+        // add
       },
       {
         path: "/books",
